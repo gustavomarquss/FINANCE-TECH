@@ -167,15 +167,18 @@ backend:
 
   - task: "API de categorias de despesas"
     implemented: true
-    working: "NA"
+    working: true
     file: "/app/backend/server.py"
     stuck_count: 0
     priority: "medium"
-    needs_retesting: true
+    needs_retesting: false
     status_history:
       - working: "NA"
         agent: "main"
         comment: "Implementado endpoint GET /api/categories com 9 categorias predefinidas"
+      - working: true
+        agent: "testing"
+        comment: "Endpoint GET /api/categories testado com sucesso. Retorna as 9 categorias predefinidas corretamente."
 
   - task: "API de estatísticas do dashboard"
     implemented: true
