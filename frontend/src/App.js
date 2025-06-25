@@ -256,8 +256,8 @@ function App() {
                 className="h-12 w-12 rounded-xl shadow-xl logo-hover"
               />
               <div>
-                <h1 className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
-                  Gestão Financeira
+                <h1 className="text-2xl font-bold text-white">
+                  Saldoo
                 </h1>
                 <p className="text-sm text-gray-400">Controle suas despesas com inteligência</p>
               </div>
