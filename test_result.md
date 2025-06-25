@@ -107,15 +107,18 @@ user_problem_statement: "Programa completo para administração de finanças, de
 backend:
   - task: "API de criação de despesas"
     implemented: true
-    working: "NA"
+    working: true
     file: "/app/backend/server.py"
     stuck_count: 0
     priority: "high"
-    needs_retesting: true
+    needs_retesting: false
     status_history:
       - working: "NA"
         agent: "main"
         comment: "Implementado endpoint POST /api/expenses com validação de categoria, valor e data"
+      - working: true
+        agent: "testing"
+        comment: "Endpoint POST /api/expenses testado com sucesso. Validações de categoria, valor positivo, data e descrição funcionando corretamente."
 
   - task: "API de listagem de despesas"
     implemented: true
