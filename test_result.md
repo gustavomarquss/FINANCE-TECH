@@ -152,15 +152,18 @@ backend:
 
   - task: "API de exclusão de despesas"
     implemented: true
-    working: "NA"
+    working: true
     file: "/app/backend/server.py"
     stuck_count: 0
     priority: "high"
-    needs_retesting: true
+    needs_retesting: false
     status_history:
       - working: "NA"
         agent: "main"
         comment: "Implementado endpoint DELETE /api/expenses/{id}"
+      - working: true
+        agent: "testing"
+        comment: "Endpoint DELETE /api/expenses/{id} testado com sucesso. Exclusão de despesas funcionando corretamente e retornando mensagem de sucesso."
 
   - task: "API de categorias de despesas"
     implemented: true
