@@ -251,15 +251,15 @@ function App() {
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center space-x-4">
               <img 
-                src="https://images.unsplash.com/photo-1639327380081-bf86fc57a7a5" 
-                alt="Logo" 
-                className="h-10 w-10 rounded-lg shadow-lg"
+                src="https://images.unsplash.com/photo-1655807286510-a49644c29ef9" 
+                alt="Gestão Financeira Logo" 
+                className="h-12 w-12 rounded-xl shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105"
               />
               <div>
                 <h1 className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
                   Gestão Financeira
                 </h1>
-                <p className="text-sm text-gray-400">Controle suas despesas</p>
+                <p className="text-sm text-gray-400">Controle suas despesas com inteligência</p>
               </div>
             </div>
             <button
