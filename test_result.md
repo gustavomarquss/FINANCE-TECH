@@ -122,15 +122,18 @@ backend:
 
   - task: "API de listagem de despesas"
     implemented: true
-    working: "NA"
+    working: true
     file: "/app/backend/server.py"
     stuck_count: 0
     priority: "high"
-    needs_retesting: true
+    needs_retesting: false
     status_history:
       - working: "NA"
         agent: "main"
         comment: "Implementado endpoint GET /api/expenses com paginação"
+      - working: true
+        agent: "testing"
+        comment: "Endpoint GET /api/expenses testado com sucesso. Paginação funcionando corretamente com parâmetros limit e offset."
 
   - task: "API de edição/atualização de despesas"
     implemented: true
