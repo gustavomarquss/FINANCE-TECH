@@ -182,15 +182,18 @@ backend:
 
   - task: "API de estatísticas do dashboard"
     implemented: true
-    working: "NA"
+    working: true
     file: "/app/backend/server.py"
     stuck_count: 0
     priority: "high"
-    needs_retesting: true
+    needs_retesting: false
     status_history:
       - working: "NA"
         agent: "main"
         comment: "Implementado endpoint GET /api/dashboard/stats com total, média, contagem e mensal"
+      - working: true
+        agent: "testing"
+        comment: "Endpoint GET /api/dashboard/stats testado com sucesso. Retorna estatísticas corretas incluindo total de despesas, contagem, média, categorias usadas e total mensal."
 
   - task: "API de resumo por categoria"
     implemented: true
