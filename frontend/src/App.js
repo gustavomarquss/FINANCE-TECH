@@ -468,8 +468,8 @@ function App() {
                 alt="Logo" 
                 className="h-8 w-8 rounded-lg shadow-lg"
               />
-              <h3 className="text-xl font-bold bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
-                Gestão Financeira
+              <h3 className="text-xl font-bold text-white">
+                Saldoo
               </h3>
             </div>
             
