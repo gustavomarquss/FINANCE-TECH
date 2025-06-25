@@ -513,7 +513,7 @@ function App() {
             
             <div className="mt-6 text-center">
               <p className="text-gray-500 text-sm">
-                © 2025 Gestão Financeira. Projeto acadêmico desenvolvido com 💙
+                © 2025 Saldoo. Projeto acadêmico desenvolvido com 💙
               </p>
             </div>
           </div>
