@@ -388,7 +388,7 @@ function App() {
 
         {/* Recent Expenses */}
         <div className="bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl p-6 border border-gray-700 shadow-xl">
-          <h3 className="text-xl font-bold mb-6 text-gray-100">Despesas Recentes</h3>
+          <h3 className="text-xl font-bold mb-6 text-white">Despesas Recentes</h3>
           <div className="overflow-x-auto">
             <table className="w-full">
               <thead>
