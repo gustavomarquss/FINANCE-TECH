@@ -524,7 +524,7 @@ function App() {
       {showForm && (
         <div className="fixed inset-0 bg-black/70 backdrop-blur-sm flex items-center justify-center p-4 z-50">
           <div className="bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl p-8 border border-gray-700 shadow-2xl w-full max-w-md">
-            <h3 className="text-2xl font-bold mb-6 text-gray-100">
+            <h3 className="text-2xl font-bold mb-6 text-white">
               {editingExpense ? 'Editar Despesa' : 'Nova Despesa'}
             </h3>
             
