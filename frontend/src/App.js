@@ -477,35 +477,35 @@ function App() {
               <h4 className="text-lg font-semibold text-gray-200 mb-3">Desenvolvido por</h4>
               <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-gray-300">
                 <div className="flex flex-col items-center">
-                  <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-purple-600 rounded-full flex items-center justify-center text-white font-bold text-lg mb-2">
+                  <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-purple-600 rounded-full flex items-center justify-center text-white font-bold text-lg mb-2 footer-avatar">
                     G
                   </div>
                   <span className="text-sm font-medium">Gustavo</span>
                 </div>
                 <div className="flex flex-col items-center">
-                  <div className="w-12 h-12 bg-gradient-to-br from-pink-500 to-red-600 rounded-full flex items-center justify-center text-white font-bold text-lg mb-2">
+                  <div className="w-12 h-12 bg-gradient-to-br from-pink-500 to-red-600 rounded-full flex items-center justify-center text-white font-bold text-lg mb-2 footer-avatar">
                     C
                   </div>
                   <span className="text-sm font-medium">Carla</span>
                 </div>
                 <div className="flex flex-col items-center">
-                  <div className="w-12 h-12 bg-gradient-to-br from-green-500 to-teal-600 rounded-full flex items-center justify-center text-white font-bold text-lg mb-2">
+                  <div className="w-12 h-12 bg-gradient-to-br from-green-500 to-teal-600 rounded-full flex items-center justify-center text-white font-bold text-lg mb-2 footer-avatar">
                     JV
                   </div>
                   <span className="text-sm font-medium">João Vitor</span>
                 </div>
                 <div className="flex flex-col items-center">
-                  <div className="w-12 h-12 bg-gradient-to-br from-purple-500 to-indigo-600 rounded-full flex items-center justify-center text-white font-bold text-lg mb-2">
+                  <div className="w-12 h-12 bg-gradient-to-br from-purple-500 to-indigo-600 rounded-full flex items-center justify-center text-white font-bold text-lg mb-2 footer-avatar">
                     P
                   </div>
                   <span className="text-sm font-medium">Priscila</span>
                 </div>
               </div>
-              <div className="mt-4 pt-4 border-t border-gray-700">
-                <p className="text-sm text-gray-400">
+              <div className="mt-4 pt-4 border-t border-gray-700 university-badge rounded-lg p-3">
+                <p className="text-sm text-gray-300 font-medium">
                   Alunos do 1° período de Química
                 </p>
-                <p className="text-sm text-gray-500 font-semibold">
+                <p className="text-sm text-blue-400 font-bold">
                   UTFPR - Universidade Tecnológica Federal do Paraná
                 </p>
               </div>
