@@ -251,13 +251,13 @@ function App() {
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center space-x-4">
               <img 
-                src="https://images.unsplash.com/photo-1655807286510-a49644c29ef9" 
-                alt="Gestão Financeira Logo" 
-                className="h-12 w-12 rounded-xl shadow-xl logo-hover"
+                src="https://images.pexels.com/photos/8833425/pexels-photo-8833425.jpeg" 
+                alt="Finance Tech Logo" 
+                className="h-12 w-12 rounded-xl shadow-xl logo-hover object-cover"
               />
               <div>
                 <h1 className="text-2xl font-bold text-white">
-                  Saldoo
+                  Finance Tech
                 </h1>
                 <p className="text-sm text-gray-400">Controle suas despesas com inteligência</p>
               </div>
