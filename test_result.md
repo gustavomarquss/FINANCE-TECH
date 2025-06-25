@@ -137,15 +137,18 @@ backend:
 
   - task: "API de edição/atualização de despesas"
     implemented: true
-    working: "NA"
+    working: true
     file: "/app/backend/server.py"
     stuck_count: 0
     priority: "high"
-    needs_retesting: true
+    needs_retesting: false
     status_history:
       - working: "NA"
         agent: "main"
         comment: "Implementado endpoint PUT /api/expenses/{id} com validações"
+      - working: true
+        agent: "testing"
+        comment: "Endpoint PUT /api/expenses/{id} testado com sucesso. Validações de categoria, valor positivo e formato de data funcionando corretamente."
 
   - task: "API de exclusão de despesas"
     implemented: true
