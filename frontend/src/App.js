@@ -464,12 +464,12 @@ function App() {
           <div className="text-center">
             <div className="flex items-center justify-center space-x-2 mb-4">
               <img 
-                src="https://images.unsplash.com/photo-1655807286510-a49644c29ef9" 
+                src="https://images.pexels.com/photos/8833425/pexels-photo-8833425.jpeg" 
                 alt="Logo" 
-                className="h-8 w-8 rounded-lg shadow-lg"
+                className="h-8 w-8 rounded-lg shadow-lg object-cover"
               />
               <h3 className="text-xl font-bold text-white">
-                Saldoo
+                Finance Tech
               </h3>
             </div>
             
