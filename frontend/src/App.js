@@ -362,7 +362,7 @@ function App() {
 
           {/* Category Summary */}
           <div className="bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl p-6 border border-gray-700 shadow-xl">
-            <h3 className="text-xl font-bold mb-6 text-gray-100">Resumo por Categoria</h3>
+            <h3 className="text-xl font-bold mb-6 text-white">Resumo por Categoria</h3>
             <div className="space-y-4 max-h-80 overflow-y-auto">
               {categorySummaries.map((cat, index) => (
                 <div key={index} className="flex items-center justify-between p-3 bg-gray-800/50 rounded-lg border border-gray-700">
