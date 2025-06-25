@@ -197,15 +197,18 @@ backend:
 
   - task: "API de resumo por categoria"
     implemented: true
-    working: "NA"
+    working: true
     file: "/app/backend/server.py"
     stuck_count: 0
     priority: "high"
-    needs_retesting: true
+    needs_retesting: false
     status_history:
       - working: "NA"
         agent: "main"
         comment: "Implementado endpoint GET /api/dashboard/categories com percentuais por categoria"
+      - working: true
+        agent: "testing"
+        comment: "Endpoint GET /api/dashboard/categories testado com sucesso. Retorna corretamente o resumo por categoria com total, contagem e percentual para cada categoria."
 
 frontend:
   - task: "Dashboard principal com estatísticas"
