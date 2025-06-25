@@ -348,7 +348,7 @@ function App() {
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-8">
           {/* Category Chart */}
           <div className="lg:col-span-2 bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl p-6 border border-gray-700 shadow-xl">
-            <h3 className="text-xl font-bold mb-6 text-gray-100">Gastos por Categoria - Este Mês</h3>
+            <h3 className="text-xl font-bold mb-6 text-white">Gastos por Categoria - Este Mês</h3>
             {categorySummaries.length > 0 ? (
               <div className="h-80">
                 <Doughnut data={doughnutData} options={doughnutOptions} />
