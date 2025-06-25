@@ -458,6 +458,68 @@ function App() {
         </div>
       </main>
 
+      {/* Footer */}
+      <footer className="bg-gradient-to-r from-gray-900 to-black border-t border-gray-800 mt-12">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+          <div className="text-center">
+            <div className="flex items-center justify-center space-x-2 mb-4">
+              <img 
+                src="https://images.unsplash.com/photo-1655807286510-a49644c29ef9" 
+                alt="Logo" 
+                className="h-8 w-8 rounded-lg shadow-lg"
+              />
+              <h3 className="text-xl font-bold bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
+                Gestão Financeira
+              </h3>
+            </div>
+            
+            <div className="bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl p-6 border border-gray-700 shadow-xl inline-block">
+              <h4 className="text-lg font-semibold text-gray-200 mb-3">Desenvolvido por</h4>
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-gray-300">
+                <div className="flex flex-col items-center">
+                  <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-purple-600 rounded-full flex items-center justify-center text-white font-bold text-lg mb-2">
+                    G
+                  </div>
+                  <span className="text-sm font-medium">Gustavo</span>
+                </div>
+                <div className="flex flex-col items-center">
+                  <div className="w-12 h-12 bg-gradient-to-br from-pink-500 to-red-600 rounded-full flex items-center justify-center text-white font-bold text-lg mb-2">
+                    C
+                  </div>
+                  <span className="text-sm font-medium">Carla</span>
+                </div>
+                <div className="flex flex-col items-center">
+                  <div className="w-12 h-12 bg-gradient-to-br from-green-500 to-teal-600 rounded-full flex items-center justify-center text-white font-bold text-lg mb-2">
+                    JV
+                  </div>
+                  <span className="text-sm font-medium">João Vitor</span>
+                </div>
+                <div className="flex flex-col items-center">
+                  <div className="w-12 h-12 bg-gradient-to-br from-purple-500 to-indigo-600 rounded-full flex items-center justify-center text-white font-bold text-lg mb-2">
+                    P
+                  </div>
+                  <span className="text-sm font-medium">Priscila</span>
+                </div>
+              </div>
+              <div className="mt-4 pt-4 border-t border-gray-700">
+                <p className="text-sm text-gray-400">
+                  Alunos do 1° período de Química
+                </p>
+                <p className="text-sm text-gray-500 font-semibold">
+                  UTFPR - Universidade Tecnológica Federal do Paraná
+                </p>
+              </div>
+            </div>
+            
+            <div className="mt-6 text-center">
+              <p className="text-gray-500 text-sm">
+                © 2025 Gestão Financeira. Projeto acadêmico desenvolvido com 💙
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+
       {/* Expense Form Modal */}
       {showForm && (
         <div className="fixed inset-0 bg-black/70 backdrop-blur-sm flex items-center justify-center p-4 z-50">
